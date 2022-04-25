@@ -16,9 +16,9 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
-          command: "Aarti Hello, World!"
+          command: "Aarti Bobhate Hello, World!"
 
-# Invoke jobs via workflows
+# Invoke jobs via workflows 
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
   say-hello-workflow:
